@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — Asap</title>
+<meta name="description" content="Política de Privacidad de Asap: qué datos accedemos, cómo los procesamos y dónde se guardan.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="inner">
+    <a class="brand" href="./">Asap</a>
+    <nav>
+      <a href="index.html">Legal</a>
+      <a href="terms-of-service.html">Términos</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="card">
+    <span class="badge">Privacidad</span>
+    <h1>Política de Privacidad de Asap</h1>
+    <div class="meta">
+      Fecha de entrada en vigencia: 7 de agosto de 2026 · Última actualización: 7 de agosto de 2026
+    </div>
+
+    <h2>1. Quiénes somos</h2>
+    <p>Asap es una aplicación móvil que ayuda a sus usuarios a visualizar sus gastos personales de forma rápida y consciente. Esta Política de Privacidad explica qué datos accede Asap, cómo los procesa, dónde se guardan y qué control tenés sobre ellos.</p>
+    <p><strong>Contacto:</strong> <a href="mailto:omarbonilla.v3@gmail.com">omarbonilla.v3@gmail.com</a></p>
+
+    <h2>2. Qué es Asap (y qué NO es)</h2>
+    <p>Asap lee las notificaciones que los bancos envían por correo electrónico (compras, cargos, movimientos) y las presenta de forma visual dentro de la app, para que puedas ver en qué se te va el dinero.</p>
+    <p><strong>Asap no es una aplicación bancaria.</strong> No mueve dinero, no realiza transferencias ni ninguna operación transaccional. Es puramente una herramienta de visualización y consciencia financiera.</p>
+
+    <h2>3. Qué datos accedemos y por qué</h2>
+    <p>Para funcionar, Asap solicita tu autorización para acceder a tu cuenta de Gmail mediante el inicio de sesión de Google (OAuth), con el permiso de <strong>solo lectura</strong> <code>gmail.readonly</code>. Esto significa que Asap:</p>
+    <ul>
+      <li><strong>Puede:</strong> leer el contenido de tus correos para encontrar notificaciones bancarias.</li>
+      <li><strong>No puede:</strong> enviar correos en tu nombre, eliminar correos, ni modificar nada dentro de tu cuenta de Gmail.</li>
+    </ul>
+    <p>Este permiso lo otorgás vos explícitamente en la pantalla de consentimiento de Google, y podés revocarlo en cualquier momento (ver sección 11).</p>
+    <p>Adicionalmente, al iniciar sesión, la app lee tu nombre, tu correo y tu foto de perfil de Google para mostrarlos en tu perfil dentro de la app — esta información se muestra en vivo desde tu sesión de Google, Asap no guarda una copia separada de tu nombre o tu foto.</p>
+
+    <h2>4. Cómo procesamos los correos</h2>
+    <p>De los correos que coinciden con los remitentes conocidos de bancos soportados, Asap extrae únicamente los datos necesarios para reconstruir una transacción: comercio, monto, moneda, fecha, banco, y los últimos 4 dígitos de la tarjeta involucrada (nunca el número completo). El resto de tu bandeja de entrada nunca es leído ni descargado — el filtro de qué correos traer se hace por remitente antes de bajar cualquier contenido.</p>
+    <p>Los correos que no logran procesarse (por ejemplo, un formato nuevo de un banco) quedan guardados igual, para que puedan re-procesarse en el futuro sin necesidad de volver a acceder a tu cuenta de Gmail.</p>
+
+    <h2>5. Dónde se guardan tus datos</h2>
+    <p><strong>Todo el procesamiento y almacenamiento ocurre en tu propio dispositivo.</strong> Asap guarda los correos bancarios procesados y las transacciones derivadas en una base de datos local (SQLite) dentro de tu teléfono — no en un servidor de Asap. Hoy, Asap <strong>no tiene servidor propio</strong> que reciba tus correos, tus transacciones o tus montos.</p>
+    <p>Esto también significa que:</p>
+    <ul>
+      <li>Si desinstalás la app, todos tus datos financieros procesados (correos, transacciones, presupuestos, tarjetas, ingresos manuales) se eliminan junto con la app.</li>
+      <li>Asap no puede ver, ni nosotros como equipo detrás de Asap, el contenido de tus correos o tus montos — no existe un panel ni una base de datos central donde consultarlos.</li>
+    </ul>
+
+    <h2>6. Qué NO recopilamos</h2>
+    <p>Asap no usa redes publicitarias, no vende datos a terceros, y hoy no utiliza herramientas de analítica de producto ni de rastreo de terceros.</p>
+
+    <h2>7. Notificaciones</h2>
+    <p>Las notificaciones de Asap (por ejemplo, avisos de que te estás acercando al límite de una tarjeta o a un presupuesto) se generan y se muestran localmente en tu dispositivo. No pasan por un servidor push de terceros — se calculan con los datos que ya están guardados localmente y se entregan directamente en tu teléfono.</p>
+
+    <h2>8. Función futura: recuperar tus bancos conectados en un celular nuevo</h2>
+    <div class="callout"><strong>Esta función todavía no está disponible</strong> — se detalla acá para que sepas qué va a cambiar cuando se active, no porque esté funcionando hoy.</div>
+    <p>Hoy, la lista de bancos y correos que conectaste vive únicamente en la base de datos local de tu dispositivo — si cambiás de celular, tenés que volver a conectarlos manualmente. Estamos preparando una función para que, al iniciar sesión en un dispositivo nuevo, puedas recuperar automáticamente qué bancos tenías conectados anteriormente.</p>
+    <p>Cuando esta función se active, Asap va a guardar en un servidor de respaldo (no en tu dispositivo) <strong>únicamente</strong>:</p>
+    <ul>
+      <li>Tu cuenta de Google (correo, para identificarte).</li>
+      <li>La lista de qué bancos conectaste y con qué correo recibís sus notificaciones.</li>
+    </ul>
+    <p>Esa copia de respaldo <strong>nunca va a incluir</strong> el contenido de tus correos, tus transacciones, montos, ni ningún dato financiero — esos siguen guardándose solo en tu dispositivo, igual que hoy. Esta política se va a actualizar y se te va a notificar dentro de la app antes de que esta función se active.</p>
+
+    <h2>9. Con quién compartimos datos</h2>
+    <p>Asap se comunica directamente con la API de Gmail de Google desde tu propio dispositivo para leer tus correos — no existe hoy un servidor intermediario de Asap por el que pasen tus correos. El manejo que Google hace de tu cuenta está sujeto a la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a>.</p>
+    <p>No compartimos, vendemos ni cedemos tus datos financieros a ningún tercero.</p>
+
+    <h2>10. Seguridad</h2>
+    <p>Los tokens de acceso a tu cuenta de Google son gestionados directamente por el SDK oficial de Google Sign-In — Asap nunca los guarda en almacenamiento sin cifrar. Los datos financieros procesados quedan en la base de datos local de tu dispositivo, protegida por los mismos mecanismos de seguridad del sistema operativo (sandbox de la app).</p>
+
+    <h2>11. Tus derechos y control sobre tus datos</h2>
+    <p>Podés en cualquier momento:</p>
+    <ul>
+      <li><strong>Desconectar un banco</strong> desde tu perfil en la app — Asap deja de leer correos de ese banco (las transacciones ya sincronizadas quedan guardadas localmente salvo que las borres vos manualmente).</li>
+      <li><strong>Revocar el acceso de Asap a tu cuenta de Google</strong> desde <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a> — esto corta inmediatamente cualquier posibilidad de que la app siga leyendo tu Gmail.</li>
+      <li><strong>Eliminar todos tus datos</strong> desinstalando la app — al ser almacenamiento local, no queda ninguna copia en ningún servidor de Asap.</li>
+    </ul>
+
+    <h2>12. Menores de edad</h2>
+    <p>Asap no está dirigida a menores de edad y no recopila conscientemente datos de personas que no puedan otorgar consentimiento legal para el tratamiento de sus datos según la legislación de su país.</p>
+
+    <h2>13. Cambios a esta política</h2>
+    <p>Podemos actualizar esta política a medida que la app evoluciona (especialmente al activar la función descrita en la sección 8). Vamos a avisar dentro de la app cuando haya cambios importantes.</p>
+
+    <h2>14. Contacto</h2>
+    <p>Si tenés preguntas sobre esta política o sobre cómo Asap maneja tus datos, escribinos a <a href="mailto:omarbonilla.v3@gmail.com">omarbonilla.v3@gmail.com</a>.</p>
+  </div>
+</main>
+<footer>
+  <a href="index.html">← Volver a Legal</a>
+</footer>
+</body>
+</html>
