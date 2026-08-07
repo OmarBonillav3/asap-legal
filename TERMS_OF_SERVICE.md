@@ -116,10 +116,19 @@ consecuentes derivados de su uso.
 
 ## 12. Cambios a estos términos
 
-Podemos actualizar estos Términos a medida que la app evoluciona. Te
-vamos a avisar dentro de la app cuando haya cambios importantes. El uso
-continuado de Asap después de un cambio implica tu aceptación de los
-Términos actualizados.
+**Estos Términos pueden cambiar en el futuro**, y es importante que lo
+tengas en cuenta. Asap se ofrece hoy de forma completamente gratuita, sin
+ningún cobro. Sin embargo, a medida que el producto evolucione,
+podríamos introducir funciones pagas, un plan de suscripción, u otro
+modelo de precios — todavía no está decidido si esto va a suceder ni de
+qué forma.
+
+Si en el futuro cambia el modelo de precios o cualquier otra condición
+relevante de estos Términos, te lo vamos a comunicar **dentro de la
+app, con anticipación**, y vas a poder revisar los Términos actualizados
+antes de que te afecte cualquier cobro nuevo — nunca vamos a empezar a
+cobrarte sin avisarte primero. El uso continuado de Asap después de un
+cambio implica tu aceptación de los Términos actualizados.
 
 ## 13. Ley aplicable
 

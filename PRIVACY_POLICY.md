@@ -158,9 +158,14 @@ tratamiento de sus datos según la legislación de su país.
 
 ## 13. Cambios a esta política
 
-Podemos actualizar esta política a medida que la app evoluciona
-(especialmente al activar la función descrita en la sección 8). Vamos a
-avisar dentro de la app cuando haya cambios importantes.
+**Esta política puede cambiar en el futuro**, y es importante que lo
+tengas en cuenta. Podemos actualizarla a medida que la app evoluciona —
+por ejemplo, al activar la función descrita en la sección 8, o si en el
+futuro Asap introduce funciones pagas o un plan de suscripción (ver los
+[Términos de Servicio](./TERMS_OF_SERVICE.md)), lo cual podría implicar
+el procesamiento de nuevos datos (ej. de facturación) que hoy la app no
+maneja. Vamos a avisar dentro de la app cuando haya cambios importantes,
+antes de que entren en vigencia.
 
 ## 14. Contacto
 
