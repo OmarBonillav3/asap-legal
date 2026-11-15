@@ -184,3 +184,198 @@ footer a {
   color: var(--graphite);
   font-size: 14px;
 }
+
+header .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 24px;
+  width: auto;
+  display: block;
+}
+
+main .card + .card {
+  margin-top: 20px;
+}
+
+.card-title {
+  margin-top: 0;
+}
+
+.hero h1 {
+  font-size: 30px;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.hero .tagline {
+  font-size: 17px;
+  color: var(--primary);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 22px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary), var(--lagoon));
+  color: var(--white);
+  box-shadow: 0 2px 8px rgba(22, 95, 104, 0.22);
+}
+
+.btn-secondary {
+  background: var(--white);
+  color: var(--primary);
+  border: 1px solid var(--pearl);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(22, 95, 104, 0.18);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--lagoon);
+  outline-offset: 3px;
+}
+
+.steps {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px;
+  counter-reset: step;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 44px;
+  min-height: 30px;
+  margin: 0;
+}
+
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(44, 140, 147, 0.12);
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-grid {
+  display: grid;
+  gap: 14px;
+  margin: 20px 0 4px;
+}
+
+.data-item {
+  background: var(--linen);
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.data-item .label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--lagoon);
+  margin-bottom: 6px;
+}
+
+.data-item .value {
+  font-size: 15px;
+}
+
+.scope {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 13px;
+  background: var(--pearl);
+  padding: 2px 6px;
+  border-radius: 6px;
+  word-break: break-all;
+}
+
+.list-no {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px;
+  display: grid;
+  gap: 8px;
+}
+
+.list-no li {
+  position: relative;
+  padding-left: 26px;
+  margin: 0;
+}
+
+.list-no li::before {
+  content: "✕";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--lagoon);
+  font-weight: 700;
+}
+
+footer br {
+  line-height: 2.4;
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 24px 20px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+.card .index-links a.tile {
+  background: var(--linen);
+  border: 1px solid var(--pearl);
+  box-shadow: none;
+}
+
+.card .index-links a.tile:hover {
+  border-color: var(--lagoon);
+}

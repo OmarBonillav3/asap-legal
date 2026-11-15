@@ -3,35 +3,105 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Asap — Legal</title>
-<meta name="description" content="Política de Privacidad y Términos de Servicio de Asap.">
+<title>Asap — Mira tus gastos al instante</title>
+<meta name="description" content="Asap es una app móvil que lee las notificaciones que tu banco te envía por correo y te muestra tus gastos de forma clara. No mueve dinero: solo te deja ver en qué se te va.">
+<link rel="canonical" href="https://omarbonillav3.github.io/asap-legal/">
+<link rel="icon" href="asap-logo.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
   <div class="inner">
-    <a class="brand" href="./">Asap</a>
+    <a class="brand" href="./">
+      <img class="logo" src="asap-logo.svg" alt="">
+      <span>Asap</span>
+    </a>
+    <nav>
+      <a href="privacy-policy.html">Privacidad</a>
+      <a href="terms-of-service.html">Términos</a>
+    </nav>
   </div>
 </header>
+
 <main>
+  <div class="card hero">
+    <span class="badge">App de finanzas personales</span>
+    <h1 class="card-title">Mira en qué se te va el dinero, al instante</h1>
+    <p class="tagline">Asap es una app móvil que convierte las notificaciones que tu banco te envía por correo en una vista clara de tus gastos.</p>
+    <p>En vez de abrir cada correo o entrar al portal de tu banco, abres Asap y ves tus compras del día, del mes y por tarjeta — ordenadas, sumadas y listas para entender. La idea es simple: que seas consciente de tus gastos sin ningún esfuerzo.</p>
+    <p><strong>Asap no es una app bancaria.</strong> No mueve dinero, no hace transferencias ni pagos, y no se conecta a tus cuentas ni a tus fondos. Es exclusivamente una herramienta de visualización.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="privacy-policy.html">Ver la Política de Privacidad</a>
+      <a class="btn btn-secondary" href="terms-of-service.html">Ver los Términos de Servicio</a>
+    </div>
+  </div>
+
   <div class="card">
-    <span class="badge">Documentos legales</span>
-    <h1>Legal de Asap</h1>
-    <p style="color:var(--graphite)">Aquí encuentras la Política de Privacidad y los Términos de Servicio de Asap, la app que te ayuda a visualizar tus gastos personales.</p>
+    <h2 class="card-title">Cómo funciona</h2>
+    <ol class="steps">
+      <li><strong>Inicias sesión con tu cuenta de Google</strong> y autorizas, desde la pantalla de consentimiento de Google, el acceso de solo lectura a tu correo.</li>
+      <li><strong>Asap identifica las notificaciones de tus bancos</strong> entre tus correos y extrae los datos de cada transacción.</li>
+      <li><strong>Ves tus gastos organizados</strong> en la app: por día, por mes, por tarjeta y por categoría, con tus presupuestos y límites.</li>
+    </ol>
+    <p>Puedes cortar ese acceso cuando quieras, desconectando un banco dentro de la app o revocando el permiso desde tu cuenta de Google.</p>
+  </div>
+
+  <div class="card">
+    <h2 class="card-title">Para qué usa Asap los datos de tu Gmail</h2>
+    <p>Asap necesita leer tu correo por una sola razón: ahí es donde tu banco te avisa de cada compra. Ese es todo el uso que le damos.</p>
+
+    <div class="data-grid">
+      <div class="data-item">
+        <span class="label">Permiso que solicitamos</span>
+        <span class="value">Acceso de <strong>solo lectura</strong> a Gmail — <code class="scope">https://www.googleapis.com/auth/gmail.readonly</code></span>
+      </div>
+      <div class="data-item">
+        <span class="label">Para qué lo usamos</span>
+        <span class="value">Para localizar los correos de notificación que envían tus bancos y extraer de ellos los datos de cada movimiento: <strong>comercio, monto, moneda, fecha, banco y los últimos 4 dígitos de la tarjeta</strong> — nunca el número completo.</span>
+      </div>
+      <div class="data-item">
+        <span class="label">Dónde terminan esos datos</span>
+        <span class="value">Tus correos y tus transacciones se guardan <strong>únicamente en tu dispositivo</strong>. No viajan ni se almacenan en servidores de Asap. En nuestros servidores solo se guarda la configuración de tu cuenta (bancos conectados, presupuestos, fechas de corte) para que la recuperes si cambias de celular.</span>
+      </div>
+    </div>
+
+    <h2>Qué nunca hace Asap con tu correo</h2>
+    <ul class="list-no">
+      <li>No envía, responde, elimina ni modifica ningún correo.</li>
+      <li>No lee correos ajenos a las notificaciones bancarias.</li>
+      <li>No vende, cede ni comparte tu información con terceros.</li>
+      <li>No usa tus datos para publicidad ni los entrega a redes publicitarias.</li>
+      <li>No usa herramientas de analítica o rastreo de terceros.</li>
+    </ul>
+
+    <div class="callout">
+      El uso que Asap hace de la información recibida de las APIs de Google se rige por la <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Política de Datos de Usuario de los Servicios de API de Google</a>, incluidos sus requisitos de uso limitado (<em>Limited Use</em>).
+    </div>
+
+    <h2>Cómo revocar el acceso</h2>
+    <p>Puedes retirar el permiso en cualquier momento desde <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>, o desconectando bancos individuales dentro de la app. Si desinstalas Asap, tus correos y transacciones desaparecen con ella, porque nunca existió una copia fuera de tu dispositivo.</p>
+  </div>
+
+  <div class="card">
+    <h2 class="card-title">Documentos legales</h2>
+    <p style="color:var(--graphite)">El detalle completo de qué recopilamos, dónde se almacena y qué control tienes sobre tu información.</p>
     <div class="index-links">
       <a class="tile" href="privacy-policy.html">
-        <span class="title">Política de Privacidad</span>
-        <span class="desc">Qué información recopila Asap, cómo la utiliza y dónde se almacena.</span>
+        <span class="title">Política de Privacidad →</span>
+        <span class="desc">Qué información recopila Asap, cómo la utiliza, dónde se almacena y cómo eliminarla.</span>
       </a>
       <a class="tile" href="terms-of-service.html">
-        <span class="title">Términos de Servicio</span>
+        <span class="title">Términos de Servicio →</span>
         <span class="desc">Las reglas de uso de la app y qué puedes esperar de Asap.</span>
       </a>
     </div>
+    <p style="margin-top:24px">¿Preguntas sobre Asap o sobre tus datos? Escríbenos a <a href="mailto:omarbonilla.v3@gmail.com">omarbonilla.v3@gmail.com</a>.</p>
   </div>
 </main>
+
 <footer>
-  Asap — última actualización 18 de agosto de 2026
+  Asap · <a href="privacy-policy.html">Privacidad</a> · <a href="terms-of-service.html">Términos</a> · <a href="mailto:omarbonilla.v3@gmail.com">Contacto</a>
+  <br>Última actualización: 15 de noviembre de 2026
 </footer>
 </body>
 </html>
