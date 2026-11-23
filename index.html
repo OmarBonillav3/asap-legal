@@ -83,6 +83,49 @@
   </div>
 
   <div class="card">
+    <h2 class="card-title">Cumplimiento de las políticas de Google</h2>
+    <p>Asap utiliza una sola API de Google, con un único propósito: leer los correos de notificación que los bancos envían al usuario, para convertirlos en un resumen de gastos dentro de la app.</p>
+
+    <div class="data-grid">
+      <div class="data-item">
+        <span class="label">Única API utilizada</span>
+        <span class="value">Gmail API, en modo de solo lectura (<code class="scope">gmail.readonly</code>). Asap no utiliza ninguna otra API de Google con datos del usuario.</span>
+      </div>
+      <div class="data-item">
+        <span class="label">Tipo de contenido que procesa</span>
+        <span class="value">Exclusivamente <strong>texto</strong> de correos de notificación bancaria. Asap no abre, descarga, almacena ni procesa imágenes, video ni archivos adjuntos de ningún tipo.</span>
+      </div>
+      <div class="data-item">
+        <span class="label">Generación de contenido</span>
+        <span class="value">Asap no genera contenido. No crea, modifica ni distribuye imágenes, y no utiliza modelos generativos de ningún tipo sobre los datos obtenidos de las APIs de Google.</span>
+      </div>
+    </div>
+
+    <h2>Usos prohibidos</h2>
+    <p>Asap no utiliza las APIs de Google, ni los datos obtenidos a través de ellas, para ninguno de los siguientes fines:</p>
+    <ul class="list-no">
+      <li>Generar, procesar, almacenar o distribuir imágenes íntimas no consensuadas (NCII), incluidas las generadas o alteradas por inteligencia artificial.</li>
+      <li>Generar, procesar, almacenar o distribuir cualquier tipo de imagen o contenido sexual.</li>
+      <li>Crear contenido sintético o alterado que represente a personas reales.</li>
+      <li>Determinar solvencia crediticia o evaluar al usuario para otorgarle préstamos.</li>
+      <li>Publicidad, perfilado publicitario o transferencia de datos a corredores de datos.</li>
+    </ul>
+
+    <div class="callout">
+      Asap cumple con las <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Políticas de Datos de Usuario de los Servicios de API de Google</a>, incluidos sus requisitos de uso limitado (<em>Limited Use</em>), y con los <a href="https://developers.google.com/terms" target="_blank" rel="noopener">Términos del Servicio de las APIs de Google</a>.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 class="card-title">Summary in English</h2>
+    <p><strong>Asap</strong> is a mobile app for personal expense awareness. It reads the transaction notification emails that banks send to the user, extracts the merchant, amount, currency, date and last four digits of the card, and displays them as an organized view of the user&rsquo;s spending.</p>
+    <p><strong>Why it requests Gmail access.</strong> Bank transaction notifications arrive by email. Asap requests <code class="scope">gmail.readonly</code> for the sole purpose of locating those bank notification emails and extracting transaction data from their text. It never sends, replies to, deletes or modifies any email.</p>
+    <p><strong>Where the data goes.</strong> Emails and transactions are stored only on the user&rsquo;s device. They are never transmitted to or stored on Asap servers. Only account configuration (connected banks, budgets, statement dates) is stored remotely, so the user can restore it on a new phone.</p>
+    <p><strong>What Asap is not.</strong> Asap is not a banking app. It does not move money, make transfers or payments, and has no access to the user&rsquo;s funds. It processes email text only: it does not handle images, video or attachments, generates no content, and does not use Google APIs for NCII or any other prohibited use.</p>
+    <p>Full details: <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-of-service.html">Terms of Service</a>.</p>
+  </div>
+
+  <div class="card">
     <h2 class="card-title">Documentos legales</h2>
     <p style="color:var(--graphite)">El detalle completo de qué recopilamos, dónde se almacena y qué control tienes sobre tu información.</p>
     <div class="index-links">
